@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+*{
+    font-family: 'Patua One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+
+h2{
+    display: flex;
+    color: transparent;
+    font-size: 8vw;
+}
+
+h2 span{
+    animation: animate 3s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
